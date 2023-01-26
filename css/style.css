@@ -435,3 +435,7 @@ footer p{
     color: #FFF;
     padding: 20px;
 }
+footer p a{
+    color: #fff;
+    font-weight: 600;
+}
