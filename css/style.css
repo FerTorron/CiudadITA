@@ -67,7 +67,7 @@ nav ul li a.select:hover{
     display: none;
 }
 .move-header{
-    right: 150px;
+    right: 145px;
 }
 .nav-mod{
 	height: 70px;
@@ -98,6 +98,7 @@ main{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    text-align: center;
 }
 
 /* BG Personalizado */
@@ -365,6 +366,7 @@ main{
 }
 .formBtn:hover{
     background: none;
+    cursor: pointer;
     color: var(--buttonColor);
 }
 .formImg{
@@ -476,7 +478,7 @@ footer p a{
         top: 0;
         right: -180px;
         display: flex;
-        padding: 0 20px;
+        padding: 0 15px;
     }
     .move-nav{
         right: 0px;
@@ -498,5 +500,106 @@ footer p a{
     nav ul li a.select:hover{
         background: var(--buttonColor);
         color: white;
+    }
+
+    /* PRESENTACIÓN */
+    .presentacion h1{
+        font-size: 2.3rem;
+    }
+    .presentacion h2{
+        font-size: 1.6rem;
+    }
+    .bgContacto h1{
+        font-size: 2rem;
+    }
+
+    /* INFORMACIÓN */
+    .infoContainer h2{
+        text-align: center;
+        font-size: 2.5rem;
+    }
+    .infoContainer p{
+        text-align: center;
+    }
+    
+    /* TARJETAS */
+    .cardContainer{
+        margin-bottom: 50px;
+    }
+    .cardContainer__tramites{
+        margin-bottom: 0;
+    }.cardContainer__asistencia{
+        margin-bottom: 0;
+    }
+
+    /* BANNER */
+    .bannerAlquiler{
+        height: auto;
+    }
+    .bannerAlquiler img{
+        display: none;
+    }
+    .bannerAlquiler__textBtn{
+        width: 100%;
+    }
+    .bannerAlquiler__textBtn h3{
+        color: var(--titleColor);
+        font-size: 1.8rem;
+    }
+    .bannerAlquiler__textBtn p{
+        color: var(--letterColor);
+        font-size: 1rem;
+        margin-top: .5rem;
+    }
+    .bannerAlquiler__textBtn a{
+        font-size: 1rem;
+    }
+
+    /* FORMULARIO */
+    .formSection{
+        margin-top: 0;
+    }
+    .formImg{
+        display: none;
+    }
+    .formContact{
+        width: 100%;
+    }
+    .formContact .formInput{
+        width: 85%;
+    }
+    .formContact .formMsg{
+        width: 85%;
+    }
+
+    /* MAP */
+    .mapContainer{
+        flex-direction: column;
+    }
+    .mapContainer iframe{
+        width: 100%;
+    }
+    .mapContainer p{
+        width: 100%;
+        padding: 0;
+        font-size: 1.5rem;
+        margin-top: 50px;
+        text-align: justify;
+    }
+
+    /* FOOTER */
+    .footerContainer{
+        flex-direction: column;
+    }
+    .footerContainer ul{
+        margin-top: 20px;
+        justify-content: space-around;
+        width: 100%;
+    }
+    .footerContainer ul li{
+        padding-left: 0;
+    }
+    footer p{
+        text-align: center;
     }
 }
