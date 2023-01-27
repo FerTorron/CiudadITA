@@ -22,15 +22,16 @@
 header{
     width: 100%;
     height: 80px;
-    position: sticky;
+    position: fixed;
     top: 0;
+    right: 0;
     background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 999;
+    z-index: 100;
 }
-.head{
+navbar{
     width: 90%;
     height: 100%;
     display: flex;
@@ -62,7 +63,12 @@ nav ul li a.select:hover{
     background: none;
     color: var(--buttonColor);
 }
-
+#btn-menu{
+    display: none;
+}
+.move-header{
+    right: 150px;
+}
 .nav-mod{
 	height: 70px;
 	box-shadow: 1px 1px 10px 0px #00000010;
@@ -80,7 +86,7 @@ main{
 .inicio{
     width: 100%;
     height: 32rem;
-    margin-top: 10px;
+    margin-top: 100px;
 }
 
 .presentacion{
@@ -438,4 +444,59 @@ footer p{
 footer p a{
     color: #fff;
     font-weight: 600;
+}
+
+
+/* MEDIA QUERY */
+@media screen and (max-width:900px){
+    /* NAVBAR */
+    header{
+        position: fixed;
+    }
+    #btn-menu{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        width: 50px;
+        padding: 10px;
+        border-radius: 50%;
+    }
+    #btn-menu:hover{
+        background: var(--buttonColor);
+        color: #fff;
+    }
+    #btn-menu i{
+        font-size: 1.2rem;
+    }
+    nav{
+        height: 100%;
+        background-color: var(--buttonColor);
+        position: fixed;
+        top: 0;
+        right: -180px;
+        display: flex;
+        padding: 0 20px;
+    }
+    .move-nav{
+        right: 0px;
+    }
+    nav ul{
+        flex-direction: column;
+    }
+    nav ul li{
+        margin-bottom: 20px;
+    }
+    nav ul li a{
+        color: white;
+    }
+    nav ul li a.select{
+        background-color: white;
+        color: var(--buttonColor);
+        border: 2px solid white;
+    }
+    nav ul li a.select:hover{
+        background: var(--buttonColor);
+        color: white;
+    }
 }

@@ -8,3 +8,17 @@ window.onscroll = function(){
 		header.classList.remove('nav-mod');
 	}
 }
+
+document.getElementById("btn-menu").addEventListener("click", mostrar_menu);
+function mostrar_menu(){
+
+	document.getElementById("header").classList.toggle('move-header');
+	document.getElementById("nav").classList.toggle('move-nav');
+}
+
+window.addEventListener("resize", function(){
+	if (window.innerWidth > 700) {
+		document.getElementById("header").classList.toggle('move-header');
+		document.getElementById("nav").classList.toggle('move-nav');
+	}
+})
