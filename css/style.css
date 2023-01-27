@@ -430,10 +430,22 @@ footer{
 }
 .footerContainer ul li{
     padding-left: 50px;
+    margin: auto;
 }
 .footerContainer ul li a i{
-    font-size: 2rem;
+    width: 50px;
+    height: 50px;
+    font-size: 1.5rem;
     color: #FFF;
+    border: 2px solid #FFF;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerContainer ul li a i:hover{
+    color: var(--buttonColor);
+    background: #FFF;
 }
 footer hr{
     color: #FFF;
