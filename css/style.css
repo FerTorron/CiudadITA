@@ -406,33 +406,68 @@ main{
 
 /* FOOTER */
 footer{
-    margin-top: 80px;
     width: 100%;
     background: #002EAF;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: column;
+    margin-top: 80px;
 }
-.footerContainer{
-    padding: 20px;
+.footerGrid{
+    width: 100%;
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+.footerImg{
+    width: 100%;
     margin: auto;
-    width: 90%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
-.footerContainer ul{
+.footerInf{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footerInf h3{
+    font-size: 1.3rem;
+    color: white;
+}
+.footerLey{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footerLey ul{
+    list-style: none;
+}
+.footerLey ul li a{
+    font-size: 1.1rem;
+    color: White;
+    font-weight: 100;
+    opacity: .8;
+}
+.footerSocial{
+    width: 100%;
+    margin: auto;
+}
+.footerSocial ul{
     list-style: none;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.footerContainer ul li{
-    padding-left: 50px;
-    margin: auto;
+.footerSocial ul li{
+    padding-right: 50px;
 }
-.footerContainer ul li a i{
+.footerSocial ul li.select{
+    padding-right: 0;
+}
+.footerSocial ul li a i{
     width: 50px;
     height: 50px;
     font-size: 1.5rem;
@@ -443,17 +478,20 @@ footer{
     justify-content: center;
     align-items: center;
 }
-.footerContainer ul li a i:hover{
+.footerSocial ul li a i:hover{
     color: var(--buttonColor);
     background: #FFF;
 }
 footer hr{
+    margin: auto;
+    margin-top: 20px;
     color: #FFF;
     width: 90%;
 }
 footer p{
     color: #FFF;
     padding: 20px;
+    text-align: center;
 }
 footer p a{
     color: #fff;
@@ -600,18 +638,8 @@ footer p a{
     }
 
     /* FOOTER */
-    .footerContainer{
-        flex-direction: column;
-    }
-    .footerContainer ul{
-        margin-top: 20px;
-        justify-content: space-around;
-        width: 100%;
-    }
-    .footerContainer ul li{
-        padding-left: 0;
-    }
-    footer p{
-        text-align: center;
+    .footerGrid{
+        grid-template-columns: 1fr;
+        grid-gap: 30px;
     }
 }
