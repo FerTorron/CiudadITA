@@ -18,7 +18,7 @@ function mostrar_menu(){
 
 window.addEventListener("resize", function(){
 	if (window.innerWidth > 700) {
-		document.getElementById("header").classList.toggle('move-header');
-		document.getElementById("nav").classList.toggle('move-nav');
+		document.getElementById("header").classList.remove('move-header');
+		document.getElementById("nav").classList.remove('move-nav');
 	}
 })
