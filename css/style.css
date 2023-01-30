@@ -6,7 +6,7 @@
     box-sizing: border-box;
     font-size: 1rem;
     font-family: 'DM Sans', sans-serif;
-    text-decoration: none;
+    text-decoration: none !important;
 }
 :root{
     --letterColor: #373737;
@@ -44,6 +44,8 @@ nav ul{
     justify-content: center;
     align-items: center;
     list-style: none;
+    margin-bottom: 0 !important;
+    padding-left: 0 !important;
 }
 nav ul li{
     padding: 0 20px;
@@ -163,6 +165,7 @@ main{
 }
 .infoServicios p{
     padding-bottom: 20px;
+    text-align: center;
 }
 .infoAlquiler p{
     text-align: center;
@@ -188,6 +191,7 @@ main{
     height: 22rem;
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    margin-bottom: 20px;
 }
 .cardContainer:hover{
     transform: scale(1.02);
@@ -573,6 +577,9 @@ footer p a{
     }
     
     /* TARJETAS */
+    .cardSection{
+        justify-content: center;
+    }
     .cardContainer{
         margin-bottom: 50px;
     }
