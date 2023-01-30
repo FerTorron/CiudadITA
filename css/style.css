@@ -170,6 +170,9 @@ main{
 .infoAlquiler p{
     text-align: center;
 }
+.infoContainer .emailH2{
+    margin-bottom: 0;
+}
 
 /* TARJETAS */
 .cardSection{
@@ -294,20 +297,21 @@ main{
 .formContainer{
     width: 80%;
     margin: auto;
-    padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 20px;
-    border: 2px solid rgb(233, 233, 233);
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 .formContact{
-    width: 50%;
+    width: 60%;
+    height: auto;
+    padding: 20px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    border-radius: 20px;
+    border: 2px solid rgb(233, 233, 233);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 .formContact .formInput{
     width: 70%;
@@ -338,18 +342,6 @@ main{
     background: none;
     cursor: pointer;
     color: var(--buttonColor);
-}
-.formImg{
-    width: 50%;
-    height: 100%;
-}
-.formImg img{
-    width: 100%;
-    border-radius: 0 20px 20px 0;
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
-    object-fit: cover;
-    object-position: left;
 }
 
 /* MAPA */
@@ -680,10 +672,7 @@ footer p a{
 
     /* FORMULARIO */
     .formSection{
-        margin-top: 0;
-    }
-    .formImg{
-        display: none;
+        margin-top: 50px;
     }
     .formContact{
         width: 100%;
