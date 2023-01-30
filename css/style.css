@@ -289,38 +289,6 @@ main{
     width: 80%;
     margin: auto;
 }
-.infoFaq{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 80px;
-}
-.faqReseña{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 25px;
-}
-.faqReseña__usuario{
-    display: flex;
-    justify-content: flex-start;
-    padding-bottom: 20px;
-}
-.faqReseña__usuario i{
-    font-size: 1.5rem;
-    padding-right: 20px;
-    color: var(--titleColor);
-}
-.faqReseña__usuario h3{
-    font-size: 1.3rem;
-    color: var(--titleColor);
-}
-.faqReseña__usuario p{
-    font-size: 1.1rem;
-    color: var(--letterColor);
-    text-align: justify;
-}
-.adminReseña{
-    margin-left: 10%;
-}
 
 /* FORMULARIO */
 .formContainer{
@@ -522,6 +490,23 @@ footer p a{
     font-weight: 600;
 }
 
+
+/* CAROUSEL */
+.carousel{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 2px solid rgb(233, 233, 233);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.carousel-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
 
 /* MEDIA QUERY */
 @media screen and (max-width:900px){
