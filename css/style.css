@@ -520,6 +520,9 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 0 !important;
+    padding-left: 0 !important;
+    width: 100%;
 }
 .footerSocial ul li{
     padding-right: 50px;
