@@ -1,0 +1,20 @@
+{
+  "name": "ciudadita",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\"><a href=\"https://fertorron.github.io/CiudadITA/\">CiudadITA</a></h1>\r <h3 align=\"center\">Asesoramiento y Gestión para Tramitar tu Ciudadanía Italiana</h3>\r <br>",
+  "main": "index.js",
+  "scripts": {
+    "compile": "sass --watch scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FerTorron/CiudadITA.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FerTorron/CiudadITA/issues"
+  },
+  "homepage": "https://github.com/FerTorron/CiudadITA#readme"
+}
