@@ -6,7 +6,11 @@
   box-sizing: border-box;
   font-size: 1rem;
   font-family: "DM Sans", sans-serif;
-  text-decoration: none !important;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 .transition {
@@ -34,7 +38,7 @@ header {
   z-index: 100;
 }
 
-navbar {
+.navbar {
   width: 90%;
   height: 100%;
   display: flex;
@@ -47,8 +51,8 @@ nav ul {
   justify-content: center;
   align-items: center;
   list-style: none;
-  margin-bottom: 0 !important;
-  padding-left: 0 !important;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 nav ul li {
   padding: 0 20px;
@@ -555,7 +559,7 @@ footer p {
   color: #FFF;
   padding: 20px;
   text-align: center;
-  margin-bottom: 0 !important;
+  margin-bottom: 0;
 }
 footer p a {
   color: #fff;
@@ -616,8 +620,8 @@ footer p a {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 0 !important;
-  padding-left: 0 !important;
+  margin-bottom: 0;
+  padding-left: 0;
   width: 100%;
 }
 .footerSocial ul li {
