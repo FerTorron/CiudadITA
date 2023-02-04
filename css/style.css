@@ -494,17 +494,9 @@ nav ul li a.select:hover {
   font-weight: 800;
   padding: 20px 10px;
 }
-.leftInfo__article p {
+.leftInfo__article p, .leftInfo__article b, .leftInfo__article ul li {
   font-size: 1.1rem;
   color: #373737;
-}
-.leftInfo__article b {
-  font-size: 1.1rem;
-  color: #373737;
-}
-.leftInfo__article ul li {
-  color: #373737;
-  font-size: 1.1rem;
 }
 
 .rightInfo {
@@ -582,25 +574,19 @@ footer p a {
   justify-content: center;
 }
 
-.footerInf {
+.footerLegal {
   width: 100%;
   margin: auto;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .footerInf h3 {
   font-size: 1.3rem;
   color: white;
 }
 
-.footerLey {
-  width: 100%;
-  margin: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 .footerLey ul {
   list-style: none;
 }
