@@ -5,7 +5,7 @@
     border-radius: 20px;
     overflow: hidden;
     border: 2px solid rgb(233, 233, 233);
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    box-shadow: $boxshadow;
 }
 .carousel-item img{
     width: 100%;
