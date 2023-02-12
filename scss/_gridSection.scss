@@ -18,6 +18,14 @@
         color: $titleColor;
         font-weight: 800;
     }
+
+    &.saberMas{
+        h3{
+            font-size: 3rem;
+            color: $titleColor;
+            font-weight: 800;
+        }
+    }
 }
 .hrSeparador{
     width: 100%;
