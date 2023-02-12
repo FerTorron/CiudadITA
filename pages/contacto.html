@@ -65,12 +65,12 @@
         <!-- FORMULARIO -->
         <section class="newSection formSection">
             <div class="formContainer">
-                <div class="formContact">
-                    <input class="formInput" type="text" placeholder="Nombre">
-                    <input class="formInput" type="email" placeholder="E-Mail">
-                    <textarea class="formMsg" name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                <form class="formContact" action="https://formspree.io/f/mqkopgqv" method="POST">
+                    <input class="formInput" type="text" placeholder="Nombre" name="name">
+                    <input class="formInput" type="email" placeholder="E-Mail" name="email">
+                    <textarea class="formMsg" name="message" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
                     
-                    <button class="formBtn" id="liveToastBtn">
+                    <button class="formBtn">
                         <div class="svg-wrapper-1">
                           <div class="svg-wrapper">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
@@ -81,7 +81,7 @@
                         </div>
                         <input id="" class="formInputBtn transition" type="submit" value="Enviar">
                       </button>
-                </div>
+                </form>
             </div>
         </section>
 
@@ -99,20 +99,6 @@
         </section>
     </main>
 
-        <!-- NOTIFICACIÓN DE ENVÍO -->
-        <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
-            <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
-            <div class="toast-header">
-                <img src="../assets/favicon/favicon.ico" class="rounded me-2" alt="Logo del icono de ciudad ita">
-                <strong class="me-auto">Ciudad ITA</strong>
-                <small>Error</small>
-                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
-            </div>
-            <div class="toast-body">
-                Aún no estoy disponible.
-            </div>
-            </div>
-        </div>
 
         <!--FOOTER-->
         <footer>
