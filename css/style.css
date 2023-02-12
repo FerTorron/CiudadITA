@@ -222,7 +222,7 @@ nav ul li a.select:hover {
 .ciudaditaInicio .gridInicio .infoCiudad a {
   background: #003EED;
   color: #FFF;
-  width: 18%;
+  width: fit-content;
   text-align: center;
   padding: 10px 20px;
   border-radius: 20px;
@@ -791,6 +791,32 @@ footer p a {
   .infoContainer p {
     text-align: center;
   }
+  .ciudaditaInicio {
+    margin-top: 120px;
+  }
+  .ciudaditaInicio .gridInicio {
+    grid-template-columns: 1fr;
+  }
+  .ciudaditaInicio .gridInicio .infoCiudad {
+    padding-top: 0;
+    text-align: center;
+  }
+  .ciudaditaInicio .gridInicio .infoCiudad h1 {
+    font-size: 3.2rem;
+  }
+  .ciudaditaInicio .gridInicio .infoCiudad h2 {
+    font-size: 2;
+  }
+  .ciudaditaInicio .gridInicio .infoCiudad p {
+    padding: 0;
+    margin-bottom: 10px;
+  }
+  .ciudaditaInicio .gridInicio .infoCiudad a {
+    margin: auto;
+  }
+  .ciudaditaInicio .gridInicio .torreCiudad {
+    display: none;
+  }
   /* TARJETAS */
   .cardSection {
     justify-content: center;
@@ -860,6 +886,12 @@ footer p a {
   }
   .leftInfo__title h1 {
     font-size: 2.5rem;
+  }
+  .leftInfo__title.saberMas h3 {
+    font-size: 2.2rem;
+    color: #272727;
+    text-align: center;
+    font-weight: 800;
   }
   .leftInfo__article h2 {
     font-size: 1.5rem;
