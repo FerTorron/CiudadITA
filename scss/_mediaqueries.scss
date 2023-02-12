@@ -1,0 +1,178 @@
+@media screen and (max-width:900px){
+    /* NAVBAR */
+    header{
+        position: fixed;
+    }
+    #btn-menu{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        width: 50px;
+	    height: 50px;
+        padding: 10px;
+        border-radius: 50%;
+        &:hover{
+            background: $buttonColor;
+            color: #fff;
+        }
+        i{
+            font-size: 1.2rem;
+        }
+    }
+    nav{
+        height: 100%;
+        background-color: $buttonColor;
+        position: fixed;
+        top: 0;
+        right: -180px;
+        display: flex;
+        padding: 0 15px;
+        
+        ul{
+            flex-direction: column;
+
+            li{
+                margin-bottom: 20px;
+
+                a{
+                    color: white;
+                    &.select{
+                        background-color: white;
+                        color: $buttonColor;
+                        border: 2px solid white;
+                        &:hover{
+                            background: $buttonColor;
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .move-nav{
+        right: 0px;
+    }
+
+    /* PRESENTACIÓN */
+    .presentacion{
+        h1{
+            font-size: 2.3rem;
+        }
+        h2{
+            font-size: 1.6rem;
+        }
+    }  
+    .bgContacto{
+        h1{
+            font-size: 2rem;
+        }
+    }
+
+    /* INFORMACIÓN */
+    .infoContainer{
+        h2{
+            text-align: center;
+            font-size: 2.5rem;
+        }
+        p{
+            text-align: center;
+        }
+    }
+    
+    /* TARJETAS */
+    .cardSection{
+        justify-content: center;
+    }
+    .cardContainer{
+        margin-bottom: 50px;
+    }
+    .cardContainer__tramites{
+        margin-bottom: 0;
+    }.cardContainer__asistencia{
+        margin-bottom: 0;
+    }
+
+    /* BANNER */
+    .bannerAlquiler{
+        height: auto;
+        img{
+            display: none;
+        }
+    }
+    .bannerAlquiler__textBtn{
+        width: 100%;
+
+        h3{
+            color: $titleColor;
+            font-size: 1.8rem;
+        }
+
+        p{
+            color: $letterColor;
+            font-size: 1rem;
+            margin-top: .5rem;
+        }
+
+        a{
+            font-size: 1rem;
+        }
+    }
+
+    /* FORMULARIO */
+    .formSection{
+        margin-top: 50px;
+    }
+    .formContact{
+        width: 100%;
+
+        .formInput{
+            width: 85%;
+        }
+        .formMsg{
+            width: 85%;
+        }
+    }
+
+    /* MAP */
+    .mapContainer{
+        grid-template-columns: 1fr;
+        grid-template-rows: 300px auto;
+
+        .mapaTxt{
+            padding: 20px;
+
+            h4{
+                display: none;
+            }
+            p{
+                font-size: 1rem;
+                text-align: center;
+            }
+        }
+    }
+
+    /* gridSection */
+    .gridSection{
+        grid-template-columns: 1fr;
+    }
+    .leftInfo__title{
+        h1{
+            font-size: 2.5rem;
+        }
+    }
+    .leftInfo__article{
+        h2{
+            font-size: 1.5rem;
+        }
+    }
+    .rightInfo{
+        display: none;
+    }
+
+    /* FOOTER */
+    .footerGrid{
+        grid-template-columns: 1fr;
+        grid-gap: 30px;
+    }
+}

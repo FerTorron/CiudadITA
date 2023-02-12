@@ -1,0 +1,62 @@
+.cardSection{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.cardServicios{
+    justify-content: space-evenly;
+}
+
+.cardContainer{
+    position: relative;
+    width: 20rem;
+    height: 22rem;
+    border-radius: 20px;
+    border: 2px solid rgb(233, 233, 233);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    margin-bottom: 20px;
+
+    &:hover{
+        transform: scale(1.02);
+    }
+
+    a{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        font-size: 1rem;
+        padding: 10px 20px;
+        background: $buttonColor;
+        border: 2px solid $buttonColor;
+        color: #FFF;
+        border-radius: 0 0 20px 20px;
+        font-weight: 500;
+        text-align: center;
+        &:hover{
+            background: rgb(0, 44, 167);
+            border: 2px solid rgb(0, 44, 167);
+        }
+    }
+}
+
+/* TARJETAS PERSONALIZADAS */
+.cardContainer__empiezaAqui{
+    background: url(../assets/img/empiezaAqui.jpg) no-repeat center center/cover;
+}
+.cardContainer__documentos{
+    background: url(../assets/img/documentos.jpg) no-repeat center center/cover;
+}
+.cardContainer__tramites{
+    background: url(../assets/img/tramites.jpg) no-repeat center center/cover;
+}
+
+.cardContainer__legajos{
+    background: url(../assets/img/legajos.jpg) no-repeat center center/cover;
+}
+.cardContainer__asistencia{
+    background: url(../assets/img/asistencia.jpg) no-repeat center center/cover;
+}
