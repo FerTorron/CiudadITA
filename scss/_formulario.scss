@@ -3,7 +3,7 @@
     margin: auto;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;;
 }
 .formContact{
     width: 60%;
@@ -34,6 +34,7 @@
 
     .formMsg{
         width: 70%;
+        height: 180px;
         resize: none;
         margin: 10px 0;
         padding: 7px;
