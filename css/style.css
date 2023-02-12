@@ -137,23 +137,23 @@ nav ul li a.select:hover {
 
 /* BG Personalizado */
 .bgInicio {
-  background: linear-gradient(rgba(0, 46, 175, 0.3), rgba(0, 46, 175, 0.3)), url(../assets/img/inicio.jpg) no-repeat center center/cover;
+  background: linear-gradient(rgba(0, 46, 175, 0.3), rgba(0, 46, 175, 0.3)), url(../assets/img/presentacion/inicio.jpg) no-repeat center center/cover;
 }
 
 .bgServicios {
-  background: linear-gradient(rgba(0, 46, 175, 0.3), rgba(0, 46, 175, 0.3)), url(../assets/img/servicios.jpg) no-repeat center center/cover;
+  background: linear-gradient(rgba(0, 46, 175, 0.3), rgba(0, 46, 175, 0.3)), url(../assets/img/presentacion/servicios.jpg) no-repeat center center/cover;
 }
 
 .bgAlquiler {
-  background: linear-gradient(rgba(0, 46, 175, 0.3), rgba(0, 46, 175, 0.3)), url(../assets/img/alquiler.jpg) no-repeat center center/cover;
+  background: linear-gradient(rgba(0, 46, 175, 0.3), rgba(0, 46, 175, 0.3)), url(../assets/img/presentacion/alquiler.jpg) no-repeat center center/cover;
 }
 
 .bgFaq {
-  background: linear-gradient(rgba(0, 46, 175, 0.3), rgba(0, 46, 175, 0.3)), url(../assets/img/faq.jpg) no-repeat center center/cover;
+  background: linear-gradient(rgba(0, 46, 175, 0.3), rgba(0, 46, 175, 0.3)), url(../assets/img/presentacion/faq.jpg) no-repeat center center/cover;
 }
 
 .bgContacto {
-  background: linear-gradient(rgba(0, 46, 175, 0.3), rgba(0, 46, 175, 0.3)), url(../assets/img/contacto.jpg) no-repeat center center/cover;
+  background: linear-gradient(rgba(0, 46, 175, 0.3), rgba(0, 46, 175, 0.3)), url(../assets/img/presentacion/contacto.jpg) no-repeat center center/cover;
 }
 
 .infoContainer {
@@ -233,23 +233,23 @@ nav ul li a.select:hover {
 
 /* TARJETAS PERSONALIZADAS */
 .cardContainer__empiezaAqui {
-  background: url(../assets/img/empiezaAqui.jpg) no-repeat center center/cover;
+  background: url(../assets/img/cards/empiezaAqui.jpg) no-repeat center center/cover;
 }
 
 .cardContainer__documentos {
-  background: url(../assets/img/documentos.jpg) no-repeat center center/cover;
+  background: url(../assets/img/cards/documentos.jpg) no-repeat center center/cover;
 }
 
 .cardContainer__tramites {
-  background: url(../assets/img/tramites.jpg) no-repeat center center/cover;
+  background: url(../assets/img/cards/tramites.jpg) no-repeat center center/cover;
 }
 
 .cardContainer__legajos {
-  background: url(../assets/img/legajos.jpg) no-repeat center center/cover;
+  background: url(../assets/img/cards/legajos.jpg) no-repeat center center/cover;
 }
 
 .cardContainer__asistencia {
-  background: url(../assets/img/asistencia.jpg) no-repeat center center/cover;
+  background: url(../assets/img/cards/asistencia.jpg) no-repeat center center/cover;
 }
 
 .bannerContainer {
