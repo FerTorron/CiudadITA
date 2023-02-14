@@ -280,8 +280,8 @@ header.nav-mod {
 .cardSection .cardContainer.cardContainer__tramites {
   background: url(../assets/img/cards/tramites.jpg) no-repeat center center/cover;
 }
-.cardSection .cardContainer.cardContainer__legajos {
-  background: url(../assets/img/cards/legajos.jpg) no-repeat center center/cover;
+.cardSection .cardContainer.cardContainer__posterior {
+  background: url(../assets/img/cards/oficina.jpg) no-repeat center center/cover;
 }
 .cardSection .cardContainer.cardContainer__asistencia {
   background: url(../assets/img/cards/asistencia.jpg) no-repeat center center/cover;
