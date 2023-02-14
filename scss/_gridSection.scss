@@ -5,72 +5,74 @@
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 50px;
-}
-.leftInfo{
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-}
-.leftInfo__title{
-    h1{
-        font-size: 3rem;
-        color: $titleColor;
-        font-weight: 800;
-    }
 
-    &.saberMas{
-        h3{
-            font-size: 3rem;
-            color: $titleColor;
-            font-weight: 800;
+    .leftInfo{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    
+        .leftInfo__title{
+            h1{
+                font-size: 3rem;
+                color: $titleColor;
+                font-weight: 800;
+            }
+        
+            &.saberMas{
+                h3{
+                    font-size: 3rem;
+                    color: $titleColor;
+                    font-weight: 800;
+                }
+            }
+        }
+        .hrSeparador{
+            width: 100%;
+            margin: 30px 0;
+        }
+        
+        .leftInfo__article{
+            h2{
+                font-size: 2rem;
+                color: $titleColor;
+                font-weight: 800;
+                padding-bottom: 20px;
+            }
+        
+            h3{
+                font-size: 1.5rem;
+                color: $titleColor;
+                font-weight: 800;
+                padding: 20px 10px;
+            }
+            
+            p,b, ul li {
+                font-size: 1.1rem;
+                color: $letterColor;
+              }
         }
     }
-}
-.hrSeparador{
-    width: 100%;
-    margin: 30px 0;
-}
-
-.leftInfo__article{
-    h2{
-        font-size: 2rem;
-        color: $titleColor;
-        font-weight: 800;
-        padding-bottom: 20px;
-    }
-
-    h3{
-        font-size: 1.5rem;
-        color: $titleColor;
-        font-weight: 800;
-        padding: 20px 10px;
-    }
     
-    p,b, ul li {
-        font-size: 1.1rem;
-        color: $letterColor;
-      }
-}
-
-
-.rightInfo{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-
-    .card{
-        margin-bottom: 100px;
-        border-radius: 15px;
-        overflow: hidden;
-    }
-}
-.card-body{
-    a{
-        background: $buttonColor;
-        &:hover{
-            background: rgb(0, 44, 167);
+    .rightInfo{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    
+        .card{
+            margin-bottom: 100px;
+            border-radius: 15px;
+            overflow: hidden;
+    
+            .card-body{
+                a{
+                    background: $buttonColor;
+                    &:hover{
+                        background: rgb(0, 44, 167);
+                    }
+                }
+            }
         }
     }
 }

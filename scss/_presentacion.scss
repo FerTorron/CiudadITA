@@ -2,57 +2,56 @@
     width: 100%;
     height: 32rem;
     margin-top: 100px;
-}
 
-.presentacion{
-    margin: auto;
-    width: 90%;
-    height: 100%;
-    border-radius: 20px;
-    @include flex-center;
-    flex-direction: column;
-    text-align: center;
-
-    h1{
-        color: #FFF;
-        font-size: 3rem;
-    }
-
-    h2{
-        color: #FFF;
-        font-size: 2rem;
-    }
-
-    a{
-        margin-top: 80px;
-        font-size: 1rem;
-        padding: 10px 20px;
-        background: $buttonColor;
-        border: 2px solid $buttonColor;
-        color: #FFF;
+    .presentacion{
+        margin: auto;
+        width: 90%;
+        height: 100%;
         border-radius: 20px;
-        font-weight: 500;
-        &:hover{
-            background: rgb(0, 44, 167);
-            border: 2px solid rgb(0, 44, 167);
-            cursor: pointer;
+        @include flex-center;
+        flex-direction: column;
+        text-align: center;
+    
+        h1{
+            color: #FFF;
+            font-size: 3rem;
+        }
+    
+        h2{
+            color: #FFF;
+            font-size: 2rem;
+        }
+    
+        a{
+            margin-top: 80px;
+            font-size: 1rem;
+            padding: 10px 20px;
+            background: $buttonColor;
+            border: 2px solid $buttonColor;
+            color: #FFF;
+            border-radius: 20px;
+            font-weight: 500;
+            &:hover{
+                background: rgb(0, 44, 167);
+                border: 2px solid rgb(0, 44, 167);
+                cursor: pointer;
+            }
+        }
+
+        &.bgInicio{
+            background: linear-gradient(rgba(0, 46, 175, 0.3), rgba(0, 46, 175, 0.3)), url(../assets/img/presentacion/inicio.jpg) no-repeat center center/cover;
+        }
+        &.bgServicios{
+            background: linear-gradient(rgba(0, 46, 175, 0.3), rgba(0, 46, 175, 0.3)), url(../assets/img/presentacion/servicios.jpg) no-repeat center center/cover;
+        }
+        &.bgAlquiler{
+            background: linear-gradient(rgba(0, 46, 175, 0.3), rgba(0, 46, 175, 0.3)), url(../assets/img/presentacion/alquiler.jpg) no-repeat center center/cover;
+        }
+        &.bgFaq{
+            background: linear-gradient(rgba(0, 46, 175, 0.3), rgba(0, 46, 175, 0.3)), url(../assets/img/presentacion/faq.jpg) no-repeat center center/cover;
+        }
+        &.bgContacto{
+            background: linear-gradient(rgba(0, 46, 175, 0.3), rgba(0, 46, 175, 0.3)), url(../assets/img/presentacion/contacto.jpg) no-repeat center center/cover;
         }
     }
-}
-
-/* BG Personalizado */
-.bgInicio{
-    background: linear-gradient(rgba(0, 46, 175, 0.3), rgba(0, 46, 175, 0.3)), url(../assets/img/presentacion/inicio.jpg) no-repeat center center/cover;
-}
-.bgServicios{
-    background: linear-gradient(rgba(0, 46, 175, 0.3), rgba(0, 46, 175, 0.3)), url(../assets/img/presentacion/servicios.jpg) no-repeat center center/cover;
-}
-.bgAlquiler{
-    background: linear-gradient(rgba(0, 46, 175, 0.3), rgba(0, 46, 175, 0.3)), url(../assets/img/presentacion/alquiler.jpg) no-repeat center center/cover;
-}
-.bgFaq{
-    background: linear-gradient(rgba(0, 46, 175, 0.3), rgba(0, 46, 175, 0.3)), url(../assets/img/presentacion/faq.jpg) no-repeat center center/cover;
-}
-.bgContacto{
-    background: linear-gradient(rgba(0, 46, 175, 0.3), rgba(0, 46, 175, 0.3)), url(../assets/img/presentacion/contacto.jpg) no-repeat center center/cover;
 }

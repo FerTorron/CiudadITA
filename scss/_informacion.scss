@@ -19,15 +19,16 @@
     .emailH2{
         margin-bottom: 0;
     }
-}
-.infoServicios{
-    p{
-        padding-bottom: 20px;
-        text-align: center;
+
+    &.infoServicios{
+        p{
+            padding-bottom: 20px;
+            text-align: center;
+        }
     }
-}
-.infoAlquiler{
-    p{
-        text-align: center;
+    &.infoAlquiler{
+        p{
+            text-align: center;
+        }
     }
 }
