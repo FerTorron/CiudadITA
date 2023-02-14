@@ -26,6 +26,16 @@ main {
   overflow: hidden;
 }
 
+/* -- SCROLLBAR -- */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #003EED;
+  border-radius: 6px;
+}
+
 header {
   width: 100%;
   height: 80px;
