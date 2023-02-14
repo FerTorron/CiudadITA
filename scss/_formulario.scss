@@ -1,18 +1,14 @@
 .formContainer{
     width: 80%;
     margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;;
+    @include flex-center;
 }
 .formContact{
     width: 60%;
     height: auto;
     padding: 20px 0;
-    display: flex;
+    @include flex-center;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     border-radius: 20px;
     border: 2px solid rgb(233, 233, 233);
     box-shadow: $boxshadow;

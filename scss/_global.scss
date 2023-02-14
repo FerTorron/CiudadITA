@@ -25,3 +25,9 @@ main{
 .newSection{
     margin-top: 80px;
 }
+
+@mixin flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

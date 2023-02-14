@@ -1,9 +1,7 @@
 .infoContainer{
     margin: auto;
-    display: flex;
     width: 80%;
-    justify-content: center;
-    align-items: center;
+    @include flex-center;
     flex-direction: column;
 
     h2{

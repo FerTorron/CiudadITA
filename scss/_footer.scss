@@ -31,16 +31,12 @@ footer{
 .footerImg{
     width: 100%;
     margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include flex-center;
 }
 .footerLegal{
     width: 100%;
     margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include flex-center;
 }
 .footerInf{
     h3{
@@ -66,9 +62,7 @@ footer{
     margin: auto;
     ul{
         list-style: none;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @include flex-center;
         margin-bottom: 0;
         padding-left: 0;
         width: 100%;

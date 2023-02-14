@@ -17,10 +17,8 @@
     }
 
     .mapaTxt{
-        display: flex;
+        @include flex-center;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
         width: 100%;
         padding: 50px;
         border: 2px solid rgb(233, 233, 233);
