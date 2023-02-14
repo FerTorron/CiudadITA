@@ -17,6 +17,7 @@
 
     <!-- CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="../css/style.css">
     
     <!--ICONOS-->
@@ -58,7 +59,7 @@
 
         <!--INFORMACIÓN-->
         <section class="newSection">
-            <div class="infoContainer">
+            <div data-aos="zoom-in-up" class="infoContainer">
                 <h2>¿Tenés alguna Duda?</h2>
                 <p>Fijate las preguntas más frecuentes que realizan nuestros clientes.</p>
             </div>
@@ -66,7 +67,7 @@
 
         <!-- FAQ -->
         <section class="newSection">
-            <div class="faqContainer">
+            <div data-aos="zoom-out-up" class="faqContainer">
                 <div class="accordion" id="accordionExample">
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingOne">
@@ -135,5 +136,11 @@
             <hr>
             <p>Todos los derechos reservados a @2023 <a href="https://www.linkedin.com/in/fertorron/">Fer Torrón</a></p>
         </footer>
+
+        <!-- AOS -->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
 </body>
 </html>
