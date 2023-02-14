@@ -280,11 +280,11 @@ header.nav-mod {
 .cardSection .cardContainer.cardContainer__tramites {
   background: url(../assets/img/cards/tramites.jpg) no-repeat center center/cover;
 }
-.cardSection .cardContainer.cardContainer__posterior {
-  background: url(../assets/img/cards/oficina.jpg) no-repeat center center/cover;
-}
 .cardSection .cardContainer.cardContainer__asistencia {
   background: url(../assets/img/cards/asistencia.jpg) no-repeat center center/cover;
+}
+.cardSection .cardContainer.cardContainer__posterior {
+  background: url(../assets/img/cards/oficina.jpg) no-repeat center center/cover;
 }
 .cardSection.cardServicios {
   justify-content: space-evenly;
@@ -783,7 +783,7 @@ footer p a {
   .cardSection .cardContainer.cardContainer__tramites {
     margin-bottom: 0;
   }
-  .cardSection .cardContainer.cardContainer__asistencia {
+  .cardSection .cardContainer.cardContainer__posterior {
     margin-bottom: 0;
   }
   /* BANNER */
